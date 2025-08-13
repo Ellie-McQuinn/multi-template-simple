@@ -1,6 +1,9 @@
+import quest.toybox.sculptor.sculptorChild
+
 plugins {
-    id("template-platform")
     id("quest.toybox.sculptor-fabric")
 }
+
+sculptorChild("common", project(":common"))
 
 sculptor.finalizeMods()
