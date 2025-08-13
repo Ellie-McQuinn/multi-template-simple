@@ -1,0 +1,3 @@
+[submodule "buildSrc/sculptor"]
+	path = buildSrc/sculptor
+	url = git@github.com:Ellie-McQuinn/sculptor.git
